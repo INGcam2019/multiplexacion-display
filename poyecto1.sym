@@ -1,0 +1,65 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+004-005 @WRITE_PROGRAM_MEMORY8.P2
+006     PORTB
+007     PORTC
+015     CCP_1
+015     CCP_1_LOW
+016     CCP_1_HIGH
+01B     CCP_2
+01B     CCP_2_LOW
+01C     CCP_2_HIGH
+020     @TRIS_C
+021     MAIN.uni
+022     MAIN.dec
+023     MAIN.cent
+024     MAIN.mil
+025     @delay_ms1.P1
+077     @SCRATCH
+078     @SCRATCH
+078     _RETURN_
+079     @SCRATCH
+07A     @SCRATCH
+107.6   C1OUT
+108.6   C2OUT
+10D-10E @READ_PROGRAM_MEMORY8.P1
+10D-10E @WRITE_PROGRAM_MEMORY8.P2
+
+ROM Allocation:
+000004  display.call
+000008  display.data
+000012  @delay_ms1
+000027  MAIN
+000027  @cinit1
+00003B  @cinit2
+
+Project Directory:
+    C:\Users\andres\Documents\pic\MULTIPLEXACION DISPLAY\
+
+Project Files:
+    poyecto1.c                                              [02-abr.-23 18:16  CRC=1A77FB2F]
+    ..\..\..\..\..\Program Files (x86)\PICC\Devices\16f887.h [12-nov.-13 14:35  CRC=6CB1A611]
+
+Source signature=F3DB4751
+
+Units:
+    poyecto1 (main)
+
+Compiler Settings:
+    Processor:      PIC16F887
+    Pointer Size:   16
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    XREF file:   poyecto1.xsym
+    Errors:      poyecto1.err
+    Ext Symbols: poyecto1.esym
+    INHX8:       poyecto1.hex
+    Symbols:     poyecto1.sym
+    List:        poyecto1.lst
+    Debug/COFF:  poyecto1.cof
+    Project:     poyecto1.ccspjt
+    Call Tree:   poyecto1.tre
+    Statistics:  poyecto1.STA
